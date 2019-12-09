@@ -10,7 +10,7 @@ client.on("message", message => {
   message.guild.members.filter(m => m.presence.status !== 'offline').forEach(m => {
  m.send(`${argresult}\n ${m}`);
 })
- message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : عدد الاعضاء المستلمين`); 
+ message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : message send to`); 
  message.delete(); 
 };     
 });
@@ -27,4 +27,4 @@ client.user.setActivity(`made by Cypress`,"")
 });
 
 
-client.login("NjUzNzAxMjgwMzYyOTIyMDQ1.Xe7X7A.AeA1PDoeI2gdxAtxrdtsqRDIzCo");
+client.login("NjUzNzAxMjgwMzYyOTIyMDQ1.Xe7Zfw.EJvgWEKSJE-JGLLrjXM70mMW7zA");

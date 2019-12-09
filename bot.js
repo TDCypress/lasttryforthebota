@@ -27,4 +27,4 @@ client.user.setActivity(`made by Cypress`,"")
 });
 
 
-client.login("NjUzNzAxMjgwMzYyOTIyMDQ1.Xe7Ulw.y_uo_uMFw6BMU5mEWjjTc1db5Jg");
+client.login("NjUzNzAxMjgwMzYyOTIyMDQ1.Xe7X7A.AeA1PDoeI2gdxAtxrdtsqRDIzCo");
